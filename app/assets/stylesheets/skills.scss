@@ -1,0 +1,27 @@
+
+img.song {
+  position: absolute;/*絶対配置*/
+  top: 200px;
+  left: 320px;
+  max-width: 100%;
+  width: 300px;
+}
+
+img.haiku {
+  position: absolute;/*絶対配置*/
+  top: 320px;
+  left: 320px;
+  max-width: 100%;
+  width: 300px;
+}
+
+img.senryu {
+  position: absolute;/*絶対配置*/
+  top: 440px;
+  left: 320px;
+  max-width: 100%;
+  width: 300px;
+}
+// Place all the styles related to the skills controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/

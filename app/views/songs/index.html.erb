@@ -1,0 +1,12 @@
+<div class="container">
+<div class="wrapper col-md-8 col-md-offset-2 col-sm-10">
+<h1>歌一覧</h1>
+
+<% @songs.each do |song| %>
+  <p>タイトル:<%= song.title %></p>
+  <p>本文:<%= song.content %></p>
+<% end %>
+
+<%= link_to "歌を作成する", new_song_path %>
+</div>
+</div>

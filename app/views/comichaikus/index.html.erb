@@ -1,0 +1,12 @@
+<div class="container">
+<div class="wrapper col-md-8 col-md-offset-2 col-sm-10">
+
+<h1>川柳一覧</h1>
+
+<% @comichaikus.each do |comichaiku| %>
+  <h4><strong>タイトル:<%= comichaiku.title %></strong></h4>
+  <p>本文:<%= comichaiku.content %></p>
+<% end %>
+<%= link_to "川柳を作成する", new_comichaiku_path %>
+</div>
+</div>

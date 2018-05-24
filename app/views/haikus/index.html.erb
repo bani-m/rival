@@ -1,0 +1,12 @@
+<div class="container">
+<div class="wrapper col-md-8 col-md-offset-2 col-sm-10">
+<h1>俳句一覧</h1>
+
+<% @haikus.each do |haiku| %>
+  <p>タイトル:<%= haiku.title %></p>
+  <p>本文:<%= haiku.content %></p>
+<% end %>
+
+<%= link_to "俳句を作成する", new_haiku_path %>
+</div>
+</div>

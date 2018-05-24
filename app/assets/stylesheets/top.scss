@@ -1,0 +1,51 @@
+.not_lose {/*親div*/
+  position: relative;/*相対配置*/
+  width: 960px;
+  height: 640px;
+  }
+
+img.absolute {
+  position: absolute;/*絶対配置*/
+  top: 5px;
+  left: 5px;
+  width: 960px;
+  height: 640px;
+  }
+
+img.login {
+  position: absolute;/*絶対配置*/
+  top: 100px;
+  left: 70px;
+  max-width: 20%;
+}
+
+img.signup {
+  position: absolute;/*絶対配置*/
+  top: 190px;
+  left: 70px;
+  max-width: 20%;
+}
+
+img.enmoku {
+  position: absolute;/*絶対配置*/
+  top: 280px;
+  left: 70px;
+  max-width: 20%;
+}
+
+
+img.to_not {
+  position: absolute;/*絶対配置*/
+  top: 380px;
+  left: -60px;
+  max-width: 73%;
+}
+
+
+.not_lose img {
+  width: 100%;
+  }
+
+a {
+  color: skyblue;
+  }
